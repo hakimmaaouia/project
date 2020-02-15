@@ -6,7 +6,7 @@ const Layout = () =>{
     return(
         <div>
             <Navmobile/>
-            <Header/>
+            {/* <Header/> */}
            <Footer/>
             </div>
     )
