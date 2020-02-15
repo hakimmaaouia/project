@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import PersonIcon from '@material-ui/icons/Person';
 const Ul = styled.ul`
 background: #89a0cf;
 list-style-type: none;
@@ -10,21 +11,21 @@ list-style-type: none;
       justify-content: center;
       align-items: center;
       text-align: center;
-  
 `
 
 const Li = styled.li`
- float: left;
+ float:left;
  a{
     display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 17px;
   text-decoration: none;
   :hover {
     transition: 1s;
   background-color: #2a3c76;
 }
+
  }
 `
 const Header = () =>{
@@ -35,6 +36,7 @@ const Header = () =>{
         <Li><a href="#contact"><b>Contact</b></a></Li>
         <Li><a href="#about"><b>About</b></a></Li>
         <Li><a href="#about"><b>Our Causes</b></a></Li>
+        <Li><a href="#about" ><b><PersonIcon style={{ fontSize: 15 }} /> Login</b></a></Li>
       </Ul>
     )
 }
