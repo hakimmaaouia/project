@@ -12,7 +12,7 @@ const Footer = () =>{
       text-align: center;
       padding:50px 150px;
       margin: 0;
-      background: #f1f2f6;
+      background: #89a0cf;
       @media only screen and (max-width: 750px) {
         padding:50px 0px;       
 }  
@@ -23,7 +23,7 @@ text-decoration:none;
 text-decoration-color:none;
 color:#2a3c76;
 :hover{
-    color:#89a0cf;
+    color:#f1f2f6;
 }
 
  `
@@ -69,7 +69,7 @@ color:#2a3c76;
     <Grid item   ><A href="#" > <YouTubeIcon style={{ fontSize: 35 }} /></A></Grid>
     <Grid item   ><A href="#" ><MailIcon style={{ fontSize: 35 }} /></A></Grid>
         </Grid>      
-        <p style={{color:"#2a3c76"}}>© 2019 Rotary International. All rights reserved</p>
+        <p style={{color:"#2a3c76"}}>© 2019 Name International. All rights reserved</p>
             </Container>
        
     )

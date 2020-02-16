@@ -14,10 +14,12 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 const useStyles = makeStyles({
   list: {
     width: 250,
+
   },
  
   title: {
     flexGrow: 1,
+   
   },
 
 });
@@ -46,7 +48,7 @@ export default function Navmobile() {
          
      
          
-          <a href="#eer3" style={{textDecoration:"none",color:"#2a3c76"}}>
+          <a href="#eer3" style={{textDecoration:"none",color:"#2a3c76",}}>
           <ListItem button>
             Home
           </ListItem>

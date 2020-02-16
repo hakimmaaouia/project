@@ -32,9 +32,9 @@ const Header = () => {
   return (
     <Ul>
       <Li>
-        <a class="active" href="home">
+        <Link to="/">
           <b>Home</b>
-        </a>
+        </Link>
       </Li>
       <Li>
         <a href="news">
@@ -58,11 +58,12 @@ const Header = () => {
         </a>
       </Li>
       <Li>
-        <a href="about">
+        <Link to="/login" >
           <b>
             <PersonIcon style={{ fontSize: 15 }} /> Login
           </b>
-        </a>
+        
+        </Link>
       </Li>
     </Ul>
   );
