@@ -19,7 +19,7 @@ const Li = styled.li`
     display: block;
   color: white;
   text-align: center;
-  padding: 20px 17px;
+  padding: 24px 17px;
   text-decoration: none;
   :hover {
     transition: 1s;
