@@ -5,17 +5,16 @@ import Login from "./components/login";
 import Home from "./components/home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
-  
   return (
     <div className="App">
       <Router>
         {" "}
         <Layout>
           <Switch>
-            <Route path="/login"   >
-              <Login />
+            <Route path="/login">
+              <Login name="test" />
             </Route>
-            <Route exact path="/"   >
+            <Route exact path="/">
               <Home />
             </Route>
           </Switch>
